@@ -1,0 +1,36 @@
+------------------------------ DOCKER BASICS ---------------
+
+1.Docker is a contanerization technology used to create and pack the software
+developemet environment to run the software every system and OS.
+
+2. docker created for linux naturally for Windows or mac to run docker 
+hyperV/WSL for mac os  HyperKit.
+
+3.Using these tools we can run the doker any platform.
+
+------------------------ Installation -----------------
+
+1. got to docker.com and navigate to downloads page.
+
+2. sudo apt install gnome-terminal install this tool and download .deb pakage
+
+3. sudo apt-get update
+sudo apt-get install ./docker-desktop-<arch>.deb
+
+4.to run systemctl --user start docker-desktop
+
+5. to check docker compose version
+Docker Compose version v2.29.1
+
+docker --version
+Docker version 27.1.1, build 6312585
+
+docker version
+Client: 
+ Version:           23.0.5
+ API version:       1.42
+ Go version:        go1.21.12
+
+6. systemctl --user enable docker-desktop
+
+7.to stop systemctl --user stop docker-desktop
