@@ -1,0 +1,15 @@
+-------------------------- Docker Image -----------------
+
+1. Docker image are the pre built set of software to create a running environment on docker.
+
+2. Ecak docker image contain a docker file --> build the docker image
+
+3. Images are stored in local computer or in docker hub
+
+------------------------- DOCKER HUB ----------
+
+1. docker pull image-name
+
+2. docker images
+
+3. docker run image-name

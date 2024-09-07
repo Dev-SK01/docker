@@ -34,3 +34,9 @@ Client:
 6. systemctl --user enable docker-desktop
 
 7.to stop systemctl --user stop docker-desktop
+
+-------------------- Docker Checks ------------
+
+docker --version to check version
+
+docker info to get all the information
