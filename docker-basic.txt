@@ -19,21 +19,14 @@ sudo apt-get install ./docker-desktop-<arch>.deb
 
 4.to run systemctl --user start docker-desktop
 
-5. to check docker compose version
-Docker Compose version v2.29.1
+5. docker compose version
+   docker --version
+   docker version
 
-docker --version
-Docker version 27.1.1, build 6312585
-
-docker version
-Client: 
- Version:           23.0.5
- API version:       1.42
- Go version:        go1.21.12
 
 6. systemctl --user enable docker-desktop
 
-7.to stop systemctl --user stop docker-desktop
+7. systemctl --user stop docker-desktop
 
 -------------------- Docker Checks ------------
 

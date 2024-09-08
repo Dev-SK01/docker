@@ -1,0 +1,28 @@
+------------------------------ DOCKER CONTAINER --------------
+
+1. DOCKER CONTAINER is an mini OS it runs docker image inside a os 
+
+2. when we run the docker image it creates a container the container run the docker image.
+
+3. docker ps --> shows the running container.
+
+4. docker ps -a --> shows all the details of the container
+
+5. docker start container-name -->starts the created container
+
+6. docker run -it image --> connects the terminal to the creating docker container
+
+7. i -- interactive t -- tty
+
+8. docker stop container-name / id
+
+9. docker exec -it container-name command-to-run-a-program-in-the-container 
+   --> executes the given comands to the docker container.
+
+10. docker container prune --> deletes the exited state containers
+
+--------------- Copying files to container ------------
+
+1. docker cp ./path-of-file container-id: /name-to-save-with-some-name
+
+2. docker cp container-name:file-to-copy /path-to-copy

@@ -1,0 +1,5 @@
+------------------------------- DOCKER BUILD -----------
+
+1. after creating the docker file we need to build the docker file
+
+2. docker build -t 'build-image-name' ./directory-of-docker-file

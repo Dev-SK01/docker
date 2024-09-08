@@ -2,14 +2,26 @@
 
 1. Docker image are the pre built set of software to create a running environment on docker.
 
-2. Ecak docker image contain a docker file --> build the docker image
+2. Ecak docker image contain a docker file --> used to build the docker image
 
 3. Images are stored in local computer or in docker hub
-
-------------------------- DOCKER HUB ----------
 
 1. docker pull image-name
 
 2. docker images
 
-3. docker run image-name
+3. docker run --name container-name image-name -- > creates a new docker container
+
+4. docker rename container-name new-name
+
+5. docker rmi image-id
+
+---------------------- CREATING DOCKER IMAGE -------------------
+
+1. create a file named Dockerfile in your workspace
+
+2. FROM --> used to download the image from the docker hub
+
+3. FROM image:latest --> gets the latest images from the docker hub
+
+4. CMD ['list' ,'of' , 'comands'] --> mention the we run the command in using the images

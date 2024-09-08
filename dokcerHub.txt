@@ -1,0 +1,13 @@
+----------------------- DOCKER HUB ------------------
+
+1. docker hub is a repo of a docker images. some images are launched by docker.
+
+2. Images are in public images
+
+3. create repo in docker hub 
+
+4. docker login --> enter username , pass
+
+5. docker tag image-name username/repo-name:tag-name --> creates a images is ready to push
+
+6. docker push username/repo-name:tag-name 
