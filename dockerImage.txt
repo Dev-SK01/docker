@@ -16,6 +16,12 @@
 
 5. docker rmi image-id
 
+6. docker run -d --> for de-attach container from terminal
+
+7. docker -p localMachinePort:containerPort --> port forwarding
+
+8. docker logs containername/id --> to see logs 
+
 ---------------------- CREATING DOCKER IMAGE -------------------
 
 1. create a file named Dockerfile in your workspace
